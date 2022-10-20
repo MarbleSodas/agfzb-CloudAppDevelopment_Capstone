@@ -27,7 +27,13 @@ DEBUG = True
 
 APPEND_SLASH = True
 
-ALLOWED_HOSTS = ["localhost"]
+ALLOWED_HOSTS = ["localhost",
+"marblecapstoneproj.mybluemix.net",
+'.mybluemix.net',
+'apic.mybluemix.net',
+'us-south.cf.appdomain.cloud',
+'apps.internal'
+]
 
 
 # Application definition
